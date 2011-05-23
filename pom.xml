@@ -16,7 +16,7 @@ permissions and limitations under the License.  -->
   <groupId>com.vecna</groupId>
   <artifactId>maven-commons</artifactId>
   <name>Maven Plugin Common Code</name>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <description>Common classes for custom Maven plugins</description>
   <organization>
     <name>Vecna Technologies</name>
