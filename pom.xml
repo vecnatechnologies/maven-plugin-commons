@@ -18,11 +18,6 @@ permissions and limitations under the License.  -->
   <name>Maven Plugin Common Code</name>
   <version>0.0.2-SNAPSHOT</version>
   <description>Common classes for custom Maven plugins</description>
-  <scm>
-    <connection>scm:git:git://github.com/vecnatechnologies/maven-commons.git</connection>
-    <url>scm:git:git://github.com/vecnatechnologies/maven-commons.git</url>
-    <developerConnection>scm:git:git://github.com/vecnatechnologies/maven-commons.git</developerConnection>
-  </scm>
   <organization>
     <name>Vecna Technologies</name>
     <url>http://vecna.com</url>
@@ -34,10 +29,22 @@ permissions and limitations under the License.  -->
       <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
     </license>
   </licenses>
+  <developers>
+    <developer>
+      <id>vecna</id>
+      <name>Vecna Technologies</name>
+      <email>opensource@vecna.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/vecnatechnologies/maven-plugin-commons.git</connection>
+    <developerConnection>scm:git:git@github.com:vecnatechnologies/maven-plugin-commons.git</developerConnection>
+    <url>https://github.com/vecnatechnologies/maven-plugin-commons</url>
+  </scm>
   <parent>
     <groupId>com.vecna.parent</groupId>
     <artifactId>open-parent-pom</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
   <dependencies>
     <dependency>
